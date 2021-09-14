@@ -1,0 +1,130 @@
+body {
+background-color: #ccc;
+}
+
+.block {
+border: 1% solid #999;
+border-radius: 10px;
+background-color: #ddd;
+padding: 2%;
+margin: 2%;
+font-size: 125%;
+}
+
+.block img {
+height: 100%;
+width: 100%;
+background-color: #ccc;
+}
+
+#header {
+background-image: linear-gradient(to right, rgba(64, 64, 64, 255), rgba(128, 128, 128, 0)), url("images/header.jpg");
+background-size: cover;
+background-position: 80% 37.5%;
+text-align: left;
+font-size: 200%;
+font-family: serif;
+color: #fff;
+padding: 5%;
+}
+
+#header h1 {
+margin-top: -1%;
+margin-bottom: 1%;
+}
+
+#header p {
+margin-top: -1%;
+}
+
+#panel {
+background-color: #bbb;
+text-align: left;
+padding: 1%;
+margin-left: -1%;
+margin-right: -1%;
+}
+
+#panel a {
+white-space: nowrap;
+padding: 0.5%;
+padding-left: 1.5%;
+padding-right: 1.5%;
+}
+
+#panel active {
+border-radius: 10px;
+background-color: #9f9f9f;
+padding: 0.7%;
+padding-left: 1.5%;
+padding-right: 1.5%;
+}
+
+#panel A:link {
+text-decoration: none;
+color: #222;
+}
+
+#panel A:visited {
+text-decoration: none;
+color: #222;
+}
+
+#panel A:active {
+text-decoration: none;
+color: #ccc;
+}
+
+#panel A:hover { 
+text-decoration: underline;
+background-color: #ababab;
+border-radius: 10px;
+}
+
+#news {
+min-width: 125px;
+width: 15%;
+max-height: 500px;
+min-height: 150px;
+height: 300px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-top: 0px solid #bbb;
+padding: 1%;
+margin-top: 0%;
+float: left;
+}
+
+#news h2 {
+margin-top: 0%;
+margin-bottom: -2%;
+}
+
+#news li {
+margin-left: -15%;
+margin-bottom: 5%;
+}
+
+#content {
+	min-width: 40%;
+	width: 50%;
+	float: left;
+	padding-left: 10%;
+	padding-top: 0%;
+	margin-top: -1%;
+}
+
+#about {
+width: 80%;
+min-height: 200px;
+margin: 0.75%;
+padding-top: 0%;
+}
+
+#info {
+width: 80%;
+min-height: 200px;
+margin: 0.75%;
+padding-top: 0%;
+}
+
