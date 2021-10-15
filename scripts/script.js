@@ -1,2 +1,5 @@
-var page = window.location.href;
-page = page.slice(40, page.length).slice(0, page.length - 45);
+$(document).ready(function(){
+	for (let i = 0; i < content[page].length; i++) {
+		$("#content").append("<div class='block'>" + content[page][i] + "</div>");
+	}
+});
