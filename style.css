@@ -14,7 +14,7 @@ font-size: 125%;
 .block img {
 height: 100%;
 width: 100%;
-background-color: #ccc;
+background-color: #ddd;
 }
 
 #header {
@@ -90,7 +90,8 @@ min-height: 150px;
 border-top-left-radius: 0px;
 border-top-right-radius: 0px;
 border-top: 0px solid #bbb;
-padding: 1%;
+padding: 3%;
+padding-top: 1%;
 margin-top: 0%;
 }
 
@@ -104,13 +105,6 @@ margin-left: -15%;
 margin-bottom: 5%;
 }
 
-@media screen and (max-width: 600px) {
-  #news {
-    visibility: hidden;
-    display: none;
-  }
-}
-
 #container {
 float: left;
 }
@@ -120,6 +114,7 @@ position: absolute;
 padding: 2%;
 padding-top: 0%;
 margin-top: 1%;
+width: 60%;
 }
 
 #about {
@@ -134,5 +129,16 @@ width: 80%;
 min-height: 200px;
 margin: 0.75%;
 padding-top: 0%;
+}
+
+@media screen and (max-width: 600px) {
+  #news {
+    visibility: hidden;
+    display: none;
+  }
+  
+  #content {
+	  width: 90%;
+  }
 }
 
